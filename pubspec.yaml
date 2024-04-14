@@ -1,0 +1,19 @@
+name: type_lint_issue
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.3.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  solid_lints: ^0.1.5
+
+flutter:
+  uses-material-design: true
